@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+DH_VERBOSE = 1
+VER_MAJOR = $(shell dpkg-parsechangelog -S Version | cut -d. -f1)
+
+%:
+	dh $@ -D${DEB_HOST_ARCH}
+
+override_dh_auto_configure:
+	debian/patch
+	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_INCLUDEDIR=lib/cef/${VER_MAJOR}/${DEB_HOST_MULTIARCH} \
+		-DCMAKE_INSTALL_LIBDIR=lib/cef/${VER_MAJOR}/${DEB_HOST_MULTIARCH} \
+		-DCMAKE_INSTALL_CMAKEDIR=lib/${DEB_HOST_MULTIARCH}/cmake/CEF${VER_MAJOR}
+
+override_dh_auto_install:
+	dh_auto_install
+	debian/patch -R

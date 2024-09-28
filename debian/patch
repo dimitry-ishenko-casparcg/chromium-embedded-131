@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+path=debian/patches
+[ "$1" = "-R" ] && opt="-R" series=$(tac $path/series) || opt= series=$(cat $path/series)
+
+for dir in arm64 armhf; do
+    echo "Patching inside $dir"
+    for file in $series; do
+        echo "Applying $file"
+        patch -d $dir -p2 $opt < $path/$file
+    done
+done
