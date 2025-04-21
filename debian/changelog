@@ -1,3 +1,8 @@
+chromium-embedded-131 (131.4.1+g437feba-1) UNRELEASED; urgency=medium
+
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 21 Apr 2025 15:42:51 -0400
+
 chromium-embedded-128 (128.4.12+g1d7a1f9-1) unstable; urgency=medium
 
   * Initial release.

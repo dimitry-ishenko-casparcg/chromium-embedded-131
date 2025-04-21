@@ -1,7 +1,7 @@
-# Debian Packaging for CEF 128
+# Debian Packaging for CEF 131
 
 This is Debian packaging repository for the [Chromium Embedded Framework
-v128](https://bitbucket.org/chromiumembedded/cef).
+v131](https://bitbucket.org/chromiumembedded/cef).
 
 ## Binary Packages
 
@@ -13,14 +13,14 @@ Precompiled Debian packages can be found here:
 #### Download and unpack source files:
 
 ```shell
-p=chromium-embedded-128
-v=128.4.12+g1d7a1f9
+p=chromium-embedded-131
+v=131.4.1+g437feba
 
 # Download CEF tarballs
 for a in amd64 arm64 armhf; do
     b=$a b=${b#amd} b=${b%hf}
     wget -cO ${p}_${v}.orig-${a}.tar.bz2 \
-        https://cef-builds.spotifycdn.com/cef_binary_${v}+chromium-128.0.6613.138_linux${b}_minimal.tar.bz2
+        https://cef-builds.spotifycdn.com/cef_binary_${v}+chromium-131.0.6778.265_linux${b}_minimal.tar.bz2
 done
 
 # Download Debian packaging
