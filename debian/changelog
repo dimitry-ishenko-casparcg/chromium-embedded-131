@@ -1,3 +1,11 @@
+chromium-embedded-131 (131.4.1+g437feba-3) unstable; urgency=medium
+
+  * README.md: consistent instructions
+  * d/rules: dwz fails for armhf on Launchpad
+  * Tweak build workflow
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sat, 26 Jul 2025 16:29:17 -0400
+
 chromium-embedded-131 (131.4.1+g437feba-2) unstable; urgency=medium
 
   * Drop support for Ubuntu Focal
