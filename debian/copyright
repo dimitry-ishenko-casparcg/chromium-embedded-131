@@ -38,8 +38,8 @@ License: BSD
 Files:
  debian/*
 Copyright:
- 2024 Dimitry Ishenko <dimitry.ishenko@gmail.com>
-License: GPL-2+
+ 2024-2026 Dimitry Ishenko <dimitry.ishenko@gmail.com>
+License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
