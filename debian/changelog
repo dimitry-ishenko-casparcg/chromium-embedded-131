@@ -1,3 +1,9 @@
+chromium-embedded-131 (131.4.1+g437feba-6) unstable; urgency=medium
+
+  * d/rules: don't create dbgsym package
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sat, 28 Feb 2026 16:22:17 -0500
+
 chromium-embedded-131 (131.4.1+g437feba-5) unstable; urgency=medium
 
   * README.md: update
