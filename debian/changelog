@@ -1,3 +1,9 @@
+chromium-embedded-131 (131.4.1+g437feba-9) unstable; urgency=medium
+
+  * d/patches: typo
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sun, 01 Mar 2026 12:59:00 -0500
+
 chromium-embedded-131 (131.4.1+g437feba-8) unstable; urgency=medium
 
   * Support compilation on arm64
