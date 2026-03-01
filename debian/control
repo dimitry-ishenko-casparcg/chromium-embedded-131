@@ -6,7 +6,7 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
  cmake (>= 3.21),
- libasound2,
+ libasound2 (<< 1.2.11) | libasound2t64 (>= 1.2.11),
  libgtkmm-3.0-dev,
  libnspr4,
  libnss3,
