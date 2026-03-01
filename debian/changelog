@@ -1,3 +1,9 @@
+chromium-embedded-131 (131.4.1+g437feba-7) unstable; urgency=medium
+
+  * Revert "d/control: libasound2t64 provides libasound2"
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sun, 01 Mar 2026 00:13:12 -0500
+
 chromium-embedded-131 (131.4.1+g437feba-6) unstable; urgency=medium
 
   * d/rules: don't create dbgsym package
