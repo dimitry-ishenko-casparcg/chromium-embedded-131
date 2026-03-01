@@ -1,3 +1,9 @@
+chromium-embedded-131 (131.4.1+g437feba-10) unstable; urgency=medium
+
+  * Revert "d/rules: dwz fails for armhf on Launchpad"
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sun, 01 Mar 2026 13:42:12 -0500
+
 chromium-embedded-131 (131.4.1+g437feba-9) unstable; urgency=medium
 
   * d/patches: typo
